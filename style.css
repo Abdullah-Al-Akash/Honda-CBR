@@ -36,11 +36,16 @@ header {
 
 .purchase-button {
         background: rgb(231, 111, 81);
+        border: 2px solid rgb(231, 111, 81);
         font-size: 16px;
         font-weight: 500;
         color: #FFFFFF;
         padding: 10px 45px;
         border-radius: 5px;
+}
+
+.purchase-button:hover {
+        background: rgb(211, 45, 4)
 }
 
 /* Featured Part's Styles */
