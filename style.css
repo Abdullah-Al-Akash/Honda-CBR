@@ -19,14 +19,21 @@ body {
         border-bottom: 1px dotted black;
 }
 
-nav a {
-        font-weight: 600;
-        font-size: 18px;
-        color: white
+.brand-name {
+        text-decoration: none;
+        color: rgb(231, 111, 81);
+        font-size: 40px;
+        font-weight: bold;
 }
 
-.login-utton {
-        background: rgb(231, 111, 81);
+.brand-name:hover {
+        color: rgb(211, 45, 4);
+}
+
+nav ul li a {
+        font-weight: 500;
+        font-size: 17px;
+        color: white
 }
 
 header {
