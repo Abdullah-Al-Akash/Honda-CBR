@@ -25,6 +25,10 @@ nav a {
         color: white
 }
 
+.login-utton {
+        background: rgb(231, 111, 81);
+}
+
 header {
         background: rgb(38, 70, 83);
         color: white;
