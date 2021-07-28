@@ -26,7 +26,7 @@
         -------------------------------- -->
         <header>
                 <!-- Banner Part Start -->
-                <section class="container">
+                <section class="container pt-5 pb-5">
                         <div class="row">
                                 <div class="col-lg-6 d-flex align-items-center justify-content-center p-5">
                                         <div>
@@ -39,9 +39,44 @@
                                                         beatae distinctio omnis, perferendis rem reiciendis ipsam
                                                         suscipit
                                                         dolore mollitia.</p>
-                                                <button type="button" class=" purchase-button">
-                                                        Purchase
-                                                </button>
+                                                <div>
+                                                        <button type="button" class="purchase-button"
+                                                                data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                                Purchase
+                                                        </button>
+                                                        <!-- Modal -->
+                                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                <div class="modal-dialog">
+                                                                        <div class="modal-content">
+                                                                                <div class="modal-header">
+                                                                                        <h5 class="modal-title text-success"
+                                                                                                id="exampleModalLabel">
+                                                                                                Please Confirm Your
+                                                                                                Order!</h5>
+                                                                                        <button type="button"
+                                                                                                class="btn-close"
+                                                                                                data-bs-dismiss="modal"
+                                                                                                aria-label="Close"></button>
+                                                                                </div>
+                                                                                <div class="modal-body text-dark">
+                                                                                        <p>Name: Honda-CBR150R</p>
+                                                                                        <p>Price: 2.5 Lakh</p>
+                                                                                        <p>Max Power: 17.1 PS @9000 rpm.
+                                                                                                Max Torque: 14.4 Nm @
+                                                                                                7000 rpm. Body Type:
+                                                                                                Sports Bikes.
+                                                                                        </p>
+                                                                                </div>
+                                                                                <div class="modal-footer">
+                                                                                        <button type="button"
+                                                                                                class="btn btn-success"
+                                                                                                data-bs-dismiss="modal">Confirm</button>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
                                         </div>
                                 </div>
                                 <div class="col-lg-6 d-flex align-items-center justify-content-center">
@@ -166,7 +201,7 @@
                 </section>
                 <!-- Featured Part End -->
 
-                <!-- Frequently Asked Questions -->
+                <!-- Frequently Asked Questions Part Start -->
                 <section class="container">
                         <div class="text-center pb-5 pt-5">
                                 <h1 class="headline">Frequently Asked <span class="orange">Questions</span></h1>
@@ -274,8 +309,12 @@
                                 </div>
                         </div>
                 </section>
+                <!-- Frequently Asked Questions Part End -->
 
         </main>
+        <!-- ------------------------------
+        ---------Main Part End----------
+        -------------------------------- -->
 
 
         <!-- Bootstrap Style JavaScript Link-->
