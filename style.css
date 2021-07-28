@@ -1,0 +1,47 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body {
+        font-family: 'Poppins', sans-serif;
+}
+
+/* Header Part Style */
+
+header {
+        background: rgb(38, 70, 83);
+        color: white;
+}
+
+.header-short-text {
+        font-size: 14px;
+}
+
+.headline {
+        font-size: 48px;
+        font-weight: 600;
+}
+
+.headline-details {
+        color: #E0E0E0;
+        font-size: 16px;
+        line-height: 24px;
+}
+
+.purchase-button {
+        background: rgb(231, 111, 81);
+        font-size: 16px;
+        font-weight: 500;
+        color: #FFFFFF;
+        padding: 10px 45px;
+        border-radius: 5px;
+}
+
+/* Featured Part's Styles */
+
+.featured-short-text {
+        color: #E76F51;
+        font-size: 14px;
+}
