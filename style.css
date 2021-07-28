@@ -8,6 +8,10 @@ body {
         font-family: 'Poppins', sans-serif;
 }
 
+.orange {
+        color: rgb(231, 111, 81);
+}
+
 /* Header Part Style */
 
 header {
@@ -44,4 +48,31 @@ header {
 .featured-short-text {
         color: #E76F51;
         font-size: 14px;
+}
+
+.gray-scal-image {
+        filter: grayscale(100%);
+}
+
+/* Review Part Style */
+
+.star {
+        height: 19px;
+        width: 19px;
+        margin: 2px;
+        color: #E77C40
+}
+
+.user {
+        color: #23A6F0;
+}
+
+.user-details {
+        font-size: 14px;
+        font-weight: 600;
+        margin: 10px 0;
+}
+
+.image-rounded {
+        border-radius: 50%;
 }
