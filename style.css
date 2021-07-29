@@ -103,3 +103,9 @@ header {
 .image-rounded {
         border-radius: 50%;
 }
+
+/* Footer Part Styles */
+
+footer {
+        background: rgb(38, 70, 83);
+}
