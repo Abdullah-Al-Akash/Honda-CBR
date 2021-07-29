@@ -1,7 +1,13 @@
+/* Common Styles */
+
 * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+}
+
+html {
+        scroll-behavior: smooth;
 }
 
 body {
@@ -115,4 +121,9 @@ header {
 
 footer {
         background: rgb(38, 70, 83);
+}
+
+.footer-text {
+        text-decoration: underline;
+        cursor: pointer;
 }
