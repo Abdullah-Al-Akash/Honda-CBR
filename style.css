@@ -105,6 +105,12 @@ header {
         border-radius: 50%;
 }
 
+/* Form-Part Styles */
+
+.form-part {
+        background: rgb(231, 111, 81);
+}
+
 /* Footer Part Styles */
 
 footer {
